@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <title>Activity 2</title>
+  </head>
+  <body>
+    <figure>
+      <img src="images\github-avatar.png" alt="An image of my GitHub account's default avatar"
+      height="125" width="125">
+      <br>
+      <figcaption>GitHub Account: noemiller2000
+      <br>
+      <a href=mailto:noemiller2000@outlook.com><address>noemiller2000@outlook.com</address></a>
+      </figcaption>
+    </figure>
+
+    <p>Color Combination Table (Simple Table)</p>
+    <!-- Complex Table is 4x4 (4 rows, 4 columns) -->
+    <table id="simple-table" cellpadding="3" cellspacing="3" border="2">
+      <tr>
+        <th></th>
+        <th>Red</th>
+        <th>Yellow</th>
+        <th>Blue</th>
+      </tr>
+      <tr>
+        <th>Red</th>
+        <td>Red</td>
+        <td>Orange</td>
+        <td>Purple</td>
+      </tr>
+      <tr>
+        <th>Yellow</th>
+        <td>Orange</td>
+        <td>Yellow</td>
+        <td>Green</td>
+      </tr>
+      <tr>
+        <th>Blue</th>
+        <td>Purple</td>
+        <td>Green</td>
+        <td>Blue</td>
+      </tr>
+    </table>
+
+    <br>
+    <p>Schedule Table (Complex Table)</p>
+    <!-- Complex Table is 5x4 (5 rows, 4 columns) -->
+    <table id="complex-table" cellpadding="3" cellspacing="3" border="2">
+      <thead>
+        <tr>
+          <th scope="col" colspan=5>My Schedule</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th width=100></th>
+          <th scope="col" width=100>9am</th>
+          <th scope="col" width=100>10am</th>
+          <th scope="col" width=100>11am</th>
+          <th scope="col" width=100>12am</th>
+        </tr>
+        <tr>
+          <th scope="row">Monday</th>
+          <td rowspan=2>Calculus</td>
+          <td>English</td>
+          <td>Art</td>
+          <td>Social Studies</td>
+        </tr>
+        <tr>
+          <th scope="row">Tuesday</th>
+          <td colspan=2>Robotics</td>
+          <td>Physics</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row">Day</th>
+          <td>Activity</td>
+          <td>Activity</td>
+          <td>Activity</td>
+          <td>Activity</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
+
+<!-- Note to self, this is a comment -->
