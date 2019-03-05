@@ -15,6 +15,10 @@ p {
 strong {
   color: rgb(255,149,36);}
 
+img[class] {
+  border-style: solid;
+  border-color: 1A1A1A;}
+
 img.product {
   border-style: solid;
   border-color: 1A1A1A;
