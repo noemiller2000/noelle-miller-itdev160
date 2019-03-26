@@ -1,0 +1,100 @@
+body {
+  color: #212B35;
+  font-family: ShopifySans, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  margin-left: 5%;
+}
+
+header>* {
+  color: #637381;
+  font-size: 0.875em;
+  font-weight: 400;
+  margin-bottom: 0.38462em;
+}
+
+main {
+  margin-left: 5%;
+}
+
+h1 {
+  color: #212B35;
+  font-size: 2.625em;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.19048em;
+  margin-bottom: 0.47619em;
+  width: 810px;
+}
+
+h2 {
+  font-size: 1.77778em;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 1.2em;
+  margin-top: 1.8em;
+}
+
+a {
+  color: #5C6AC4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1E2F75;
+}
+
+.centerText {
+  text-align: center;
+  width: 690px;
+}
+
+.code {
+  background: #f4f6f8;
+  font-family: monospace;
+  font-weight: 700;
+  padding: 5px;
+}
+
+.description {
+  width: 690px;
+}
+
+.important {
+  font-weight: bold;
+  color: Red;
+}
+
+.package div, p {
+  color: #2a2c2e;
+  line-height: 1.5;
+}
+
+.package img {
+  height: 442.391px;
+  width: 690px;
+}
+
+.packageButton {
+  background-color: #5c6ac4;
+  border-color: transparent;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+  color: #ffffff;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.133;
+  padding: 0.8125em 1.875em;
+  text-decoration: none;
+  transition: 150ms ease;
+}
+
+.packageButton:hover {
+  background-color: #1E2F75;
+  color: #ffffff;
+}
+
+#heroImage {
+  height: 340px;
+  width: 810px;
+}
