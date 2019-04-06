@@ -1,0 +1,57 @@
+body {
+  background-color: Gainsboro;
+  margin-left: 30px;
+}
+
+h1 {
+  font-family: "Baloo", cursive;
+  font-weight: normal;
+}
+
+main {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+input, button {
+  line-height: 1.5em;
+  margin: 3px;
+}
+
+input {
+  padding-left: 5px;
+}
+
+.out-message {
+  background-color: AliceBlue;
+}
+
+.in-message {
+  background-color: MistyRose;
+}
+
+p.in-message, p.out-message {
+  font-family: "Varela Round", sans-serif;
+  max-width: 500px;
+  padding: 1px 20px 1px 20px;
+}
+
+p.in-message>.content, p.out-message>.content {
+  margin-left: 2em;
+}
+
+.sender {
+  font-weight: bold;
+}
+
+.spacer {
+  margin-bottom: 75px;
+}
+
+#send {
+  background-color: AliceBlue;
+}
+
+#reply {
+  background-color: MistyRose;
+}
